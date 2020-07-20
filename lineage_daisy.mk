@@ -24,6 +24,12 @@ $(call inherit-product, device/xiaomi/daisy/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080*2280
+
+# Maintainer
+XTENDED_MAINTAINER := ZunayedDihan
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := daisy
 PRODUCT_NAME := lineage_daisy
